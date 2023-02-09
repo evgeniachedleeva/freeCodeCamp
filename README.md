@@ -1,2 +1,2 @@
 # freeCodeCamp
-pictures for progect "Build a Personal Portfolio Webpage"
+pictures for project "Build a Personal Portfolio Webpage"
