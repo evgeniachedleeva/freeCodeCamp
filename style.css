@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+body {
+  font-family: arial, sans serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  background-color: #9c8472;
+  color: #fff
+ 
+}
+h1 {
+  font-family: 'Bebas Neue', sans serif;
+  
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+.header {
+  width: 100%;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.title-text {
+  text-align: center;
+  font-size: 50px;
+}
+.description-text {
+  font-style: italic;
+  font-weight: 100;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+form {
+  background-color: #604532;
+  border-radius: 10px;
+  border: 2px solid #b6c0bb;
+}
+.form-1 {
+  margin: 1em 1em;
+  padding: 0.1rem;
+}
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-2 {
+  width: 100%;
+  height: 5%;
+  border-radius: 5px;
+  background-color: #b6c0bb;
+  color: #d5833b;
+  padding: 10px;
+}
+.form-2:hover {
+  background-color: #fff;
+  color: #000;
+}
+::placeholder {
+    color: #d5833b;
+}
+.film-rec, .type {
+  margin-right: 1em;
+  height: 1em;
+  
+}
+input[type="radio"] { 
+     transform: scale(1.5); 
+ }
+ input[type="checkbox"] { 
+     transform: scale(1.5); 
+ }
+ .rec-textar {
+  min-height: 50px;
+  width: 100%;
+  padding: 0.5rem;
+  resize: vertical;
+  background-color: #b6c0bb;
+ }
+ .submit-button {
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #075c75; 
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+ }
+ .submit-button:hover {
+  background-color: #fff;
+  color: #075c75;
+ } 
